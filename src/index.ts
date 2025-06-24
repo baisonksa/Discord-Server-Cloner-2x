@@ -51,9 +51,6 @@ client.on("ready", async () => {
     } else {
       console.log("...");
     }
-  } else {
-    console.log(gradient(["red", "orange"])(t("nosvr")));
-    process.exit(1);
   }
   menutext(client);
   choiceinit(client);
